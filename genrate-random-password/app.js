@@ -10,7 +10,7 @@ async function getRandomPassword(request, response) {
     }
 
     for(let i = 1; i <= length; i++) {
-        const response = await axios.get("http://localhost:3001");
+        const response = await axios.get("http://localhost:3000");
         randomPassword += (response.data);
     }
     return randomPassword

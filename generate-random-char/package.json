@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "micro --listen tcp://localhost:3001"
+    "start": "micro --listen tcp://localhost:3000"
   },
   "author": "",
   "license": "ISC",
