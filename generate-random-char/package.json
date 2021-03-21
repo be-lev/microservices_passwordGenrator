@@ -1,0 +1,14 @@
+{
+  "name": "generate-random-pass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "micro --listen tcp://localhost:3001"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "micro": "^9.3.4"
+  }
+}
